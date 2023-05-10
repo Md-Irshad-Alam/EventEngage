@@ -1,0 +1,76 @@
+.header-content{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.3em;
+    color: #04433B;
+}
+.header-container{
+    width: 95vw;
+    height: auto;
+    margin: auto;
+
+
+}
+.main-container{
+    
+                 
+
+}
+.overlay-content{
+    max-width: 400px;
+    min-width: 640px;
+    height: 191px;
+    background: rgba(255, 255, 255, 0.7);
+    float: right;
+    text-align: center; 
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+  backface-visibility: visible;
+  background-blend-mode: screen;
+}
+.overlay-content h5{
+    width: 300px;
+    box-sizing: border-box;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    font-size: 2.3rem;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    color: #04433B;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+
+
+}
+.logo-png{
+    position: relative;
+    top: 65%;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 300px;
+    margin-left: 12px;
+    
+}
+.logo-png img{
+    border-radius: 5px;
+}
+.inner-img{
+ 
+    width: 95vw;
+    height: 10rem;
+    left: 1407.54px;
+    top: -202px;
+    background-image: url("https://shutr.bz/3nQUOmZ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    margin:auto;
+    border-radius: 8px;
+
+}
