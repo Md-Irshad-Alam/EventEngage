@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #4294ba,#3eb0e3,#d8afaf);
+  padding: 3rem 0 10rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  /* position: relative; */
+  left: 50%;
+  right: 50%;
+  width: 30vw;
+  border: 2px solid;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  /* height: 5vh; */
+  margin: 4px;
+  align-items: self-start;
+}
+input, textarea {
+  width: 80%;
+  margin: auto;
+  background: no-repeat;
+  outline: none;
+  border-top: 7px;
+  border-left: none;
+  border-right: none;
+  font-size: 18px;
+
+}
+button{
+  font-size: 1.3rem;
+    width: 50%;
+    padding: 0px;
+    margin-top: 19px;
+    /* margin: auto; */
+    float: right;
+    background: no-repeat;
+    position: relative;
+    left: 23%;
+    right: 50%;
+}
+button:active {
+  color: white;
+  padding: 2px;
+  background: repeat;
+}
